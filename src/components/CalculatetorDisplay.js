@@ -1,3 +1,4 @@
+// Dumb component to display the Inputs/Outpouts
 import React, {useState, useEffect, useContext} from "react";
 const Display = (props) => {
     const { input } = useContext(props.CalculatorContext);
